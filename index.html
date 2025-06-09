@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kalkulator Dasar</h1>
+        <img src="img/icon10.png" alt="" width="100px">
+        <input type="number" id="angkaPertama" placeholder="Masukkan angka pertama">
+        <input type="number" id="angkaKedua" placeholder="Masukkan angka kedua">
+
+        <div class="buttons-grid">
+            <button class="operator-btn" data-operator="tambah">+</button>
+            <button class="operator-btn" data-operator="kurang">-</button>
+            <button class="operator-btn" data-operator="kali">x</button>
+            <button class="operator-btn" data-operator="bagi">/</button>
+        </div>
+        <button id="resetBtn" class="reset-btn">Reset</button>
+
+        <div id="result" class="result-display">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
