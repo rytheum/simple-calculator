@@ -1,6 +1,3 @@
-# Simple-Calculator
-Basic Calculator - A simple web application for fundamental mathematical operations (addition, subtraction, multiplication, division), a convenient reset button. Built with pure HTML, CSS, and JavaScript.
-
 # Basic Calculator
 ![Screenshot of the Basic Calculator web application](img/kalku.png) A simple yet intuitive web-based calculator designed for fundamental mathematical operations: addition, subtraction, multiplication, and division. This application features a clean, user-friendly interface, smart decimal handling, and a convenient reset function, making it ideal for quick everyday calculations.
 
